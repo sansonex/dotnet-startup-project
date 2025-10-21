@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Domain.Models.Core
+﻿namespace TServiceNameT.Domain.Models.Core
 {
 	public abstract class Entity<TId>
 		where TId : struct

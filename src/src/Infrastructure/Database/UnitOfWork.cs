@@ -1,8 +1,8 @@
-﻿namespace Globo.TServiceNameT.Infrastructure.Database
+﻿namespace TServiceNameT.Infrastructure.Database
 {
 	using System.Threading.Tasks;
 
-	using Globo.TServiceNameT.Domain.Interfaces;
+	using TServiceNameT.Domain.Interfaces;
 
 	public class UnitOfWork(DataContext context) : IUnitOfWork
 	{

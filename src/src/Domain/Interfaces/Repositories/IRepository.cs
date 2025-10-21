@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Domain.Interfaces.Repositories
+﻿namespace TServiceNameT.Domain.Interfaces.Repositories
 {
 	public interface IRepository
 	{}

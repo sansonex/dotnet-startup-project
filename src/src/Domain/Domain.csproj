@@ -4,8 +4,8 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>false</ImplicitUsings>
-		<AssemblyName>Globo.TServiceNameT.Domain</AssemblyName>
-		<RootNamespace>Globo.TServiceNameT.Domain</RootNamespace>
+		<AssemblyName>TServiceNameT.Domain</AssemblyName>
+		<RootNamespace>TServiceNameT.Domain</RootNamespace>
 		<PackageId>Globo.TServiceNameT.Domain</PackageId>
 		<Authors>Globo.TServiceNameT.Domain</Authors>
 		<Company>Globo</Company>

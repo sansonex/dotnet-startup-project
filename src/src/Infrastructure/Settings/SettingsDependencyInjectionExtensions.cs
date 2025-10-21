@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Infrastructure.Settings
+﻿namespace TServiceNameT.Infrastructure.Settings
 {
 	using Microsoft.Extensions.Configuration;
 	using Microsoft.Extensions.DependencyInjection;

@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Api.Controllers.v0
+﻿namespace TServiceNameT.Api.Controllers.v0
 {
 	using Microsoft.AspNetCore.Mvc;
 

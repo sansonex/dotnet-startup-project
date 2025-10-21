@@ -1,6 +1,6 @@
 ﻿{
 	"$schema": "http://json.schemastore.org/template",
-	"author": "Globo",
+	"author": "Sansone",
 	"classifications": [
 		"ASP.NET Core",
 		"Core",
@@ -11,9 +11,9 @@
 	"tags": {
 		"language": "C#"
 	},
-	"identity": "Globo.Template",
-	"name": ".NET Core Globo Template",
-	"shortName": "globo-service",
+	"identity": "Template",
+	"name": ".NET Core Sansone Template",
+	"shortName": "sansone-service",
 	"sourceName": "DotNetCoreTemplate",
 	"symbols": {
 		"ServiceName": {

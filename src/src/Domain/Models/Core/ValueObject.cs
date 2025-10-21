@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Domain.Models.Core
+﻿namespace TServiceNameT.Domain.Models.Core
 {
 	using System.Collections.Generic;
 	using System.Linq;

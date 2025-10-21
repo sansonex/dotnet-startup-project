@@ -1,15 +1,15 @@
-﻿namespace Globo.TServiceNameT.Infrastructure.Database.Configuration
+﻿namespace TServiceNameT.Infrastructure.Database.Configuration
 {
 	using System.Diagnostics.CodeAnalysis;
 	using System.Reflection;
 
-	using Globo.TServiceNameT.Domain.Interfaces;
-	using Globo.TServiceNameT.Domain.Interfaces.Repositories;
-	using Globo.TServiceNameT.Infrastructure.Extensions;
-	using Globo.TServiceNameT.Infrastructure.Settings;
-
 	using Microsoft.EntityFrameworkCore;
 	using Microsoft.Extensions.DependencyInjection;
+
+	using TServiceNameT.Domain.Interfaces;
+	using TServiceNameT.Domain.Interfaces.Repositories;
+	using TServiceNameT.Infrastructure.Extensions;
+	using TServiceNameT.Infrastructure.Settings;
 
 	[ExcludeFromCodeCoverage]
 	public static class DataDependencyInjectionExtensions
@@ -27,7 +27,7 @@
 				.ScanAndRegisterImplementedTypes(
 					assemblies: [assembly],
 					types: [typeof(IRepository)],
-					lifetime: ServiceLifetime.Transient);
+					lifetime: ServiceLifetime.Scoped);
 
 			return services;
 		}

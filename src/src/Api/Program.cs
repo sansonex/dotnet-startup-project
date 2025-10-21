@@ -1,16 +1,17 @@
-namespace Globo.TServiceNameT.Api
+using InfrastructureInitializer = TServiceNameT.Infrastructure.InfrastructureInitializer;
+
+namespace TServiceNameT.Api
 {
 	using System.Text.Json;
 	using System.Text.Json.Serialization;
-
-	using Globo.TServiceNameT.Api.Extensions;
-	using Globo.TServiceNameT.Infrastructure;
 
 	using Microsoft.AspNetCore.Builder;
 	using Microsoft.Extensions.DependencyInjection;
 	using Microsoft.Extensions.Hosting;
 
 	using Serilog;
+
+	using TServiceNameT.Api.Extensions;
 
 	public static class Program
 	{
@@ -37,7 +38,7 @@ namespace Globo.TServiceNameT.Api
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddSwagger();
 
-			builder.Services.ConfigureApplicationInfrastructure();
+			InfrastructureInitializer.ConfigureApplicationInfrastructure(builder.Services);
 
 			var app = builder.Build();
 

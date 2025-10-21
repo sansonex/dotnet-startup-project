@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Infrastructure.Mediator
+﻿namespace TServiceNameT.Infrastructure.Mediator
 {
 	using System.Reflection;
 

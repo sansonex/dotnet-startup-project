@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Domain.Interfaces
+﻿namespace TServiceNameT.Domain.Interfaces
 {
 	public interface IUnitOfWork
 	{
