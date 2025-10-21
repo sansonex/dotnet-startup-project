@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>false</ImplicitUsings>
+		<AssemblyName>Globo.TServiceNameT.Domain</AssemblyName>
+		<RootNamespace>Globo.TServiceNameT.Domain</RootNamespace>
+		<PackageId>Globo.TServiceNameT.Domain</PackageId>
+		<Authors>Globo.TServiceNameT.Domain</Authors>
+		<Company>Globo</Company>
+	</PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Components\Contracts\Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentResults" Version="3.16.0" />
+      <PackageReference Include="MediatR" Version="12.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Interfaces\Gateways\" />
+      <Folder Include="Models\Entities\" />
+      <Folder Include="Models\Enums\" />
+      <Folder Include="Models\ValueObjects\" />
+      <Folder Include="Services\" />
+    </ItemGroup>
+
+</Project>

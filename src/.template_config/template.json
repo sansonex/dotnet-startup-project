@@ -1,0 +1,39 @@
+﻿{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Globo",
+	"classifications": [
+		"ASP.NET Core",
+		"Core",
+		"MVC",
+		"Template",
+		"Web"
+	],
+	"tags": {
+		"language": "C#"
+	},
+	"identity": "Globo.Template",
+	"name": ".NET Core Globo Template",
+	"shortName": "globo-service",
+	"sourceName": "DotNetCoreTemplate",
+	"symbols": {
+		"ServiceName": {
+			"type": "parameter",
+			"datatype": "string",
+			"description": "The name of the service",
+			"defaultValue": "WeatherForecast",
+			"replaces": "TServiceNameT"
+		}
+	},
+	"sources": [
+		{
+			"modifiers": [
+				{
+					"exclude": [
+						"src/.vs/**",
+						".template_config/**"
+					]
+				}
+			]
+		}
+	]
+}

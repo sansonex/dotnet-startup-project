@@ -1,0 +1,13 @@
+﻿version: "3.9"
+services:
+    mysqlserver_database:
+        image: mysql:5.7
+        container_name: database
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: TServiceNameT
+            MYSQL_USER: TServiceNameT
+            MYSQL_PASSWORD: TServiceNameT
+        ports:
+            - "3306:3306"
