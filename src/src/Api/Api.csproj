@@ -7,9 +7,9 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <AssemblyName>TServiceNameT.Api</AssemblyName>
         <RootNamespace>TServiceNameT.Api</RootNamespace>
-        <PackageId>Globo.TServiceNameT.Api</PackageId>
-        <Authors>Globo.TServiceNameT.Api</Authors>
-        <Company>Globo</Company>
+        <PackageId>TServiceNameT.Api</PackageId>
+        <Authors>TServiceNameT.Api</Authors>
+        <Company>Sansone</Company>
     </PropertyGroup>
 
     <ItemGroup>

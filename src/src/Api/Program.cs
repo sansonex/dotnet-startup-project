@@ -1,5 +1,3 @@
-using InfrastructureInitializer = TServiceNameT.Infrastructure.InfrastructureInitializer;
-
 namespace TServiceNameT.Api
 {
 	using System.Text.Json;
@@ -12,6 +10,7 @@ namespace TServiceNameT.Api
 	using Serilog;
 
 	using TServiceNameT.Api.Extensions;
+	using TServiceNameT.Infrastructure;
 
 	public static class Program
 	{
@@ -38,7 +37,7 @@ namespace TServiceNameT.Api
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddSwagger();
 
-			InfrastructureInitializer.ConfigureApplicationInfrastructure(builder.Services);
+			builder.Services.ConfigureApplicationInfrastructure();
 
 			var app = builder.Build();
 

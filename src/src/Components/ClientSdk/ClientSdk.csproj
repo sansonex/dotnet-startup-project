@@ -6,7 +6,7 @@
 		<RootNamespace>TServiceNameT.ClientSdk</RootNamespace>
 		<PackageId>TServiceNameT.ClientSdk</PackageId>
 		<Authors>TServiceNameT.ClientSdk</Authors>
-		<Company>Globo</Company>
+		<Company>Sansone</Company>
 	</PropertyGroup>
 
 	<ItemGroup>
