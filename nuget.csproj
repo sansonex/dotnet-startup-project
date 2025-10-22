@@ -23,7 +23,7 @@
         <Company>Sansone</Company>
         <Authors>Sansone</Authors>
         <Copyright>Sansone</Copyright>
-        <Description>A ready-to-use template for .NET Core 8.</Description>
+        <Description>A ready-to-use template for .NET 8.</Description>
         <PackageTags>c#;asp.net;core;template;web</PackageTags>
         <PackageCopyright>Sansone</PackageCopyright>
         <RepositoryType>git</RepositoryType>
