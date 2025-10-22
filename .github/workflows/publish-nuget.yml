@@ -63,7 +63,7 @@ jobs:
       - name: Publish to NuGet/Artifactory
         run: |
           for package in packages/*.nupkg; do
-            dotnet nuget push "$package" --api-key "${{ secrets.NUGET_API_KEY }}" --skip-duplicate
+            dotnet nuget push "$package" --api-key "${{ secrets.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
           done
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
