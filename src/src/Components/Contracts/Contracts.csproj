@@ -6,7 +6,7 @@
 		<RootNamespace>TServiceNameT.Contracts</RootNamespace>
 		<PackageId>TServiceNameT.Contracts</PackageId>
 		<Authors>TServiceNameT.Contracts</Authors>
-		<Company>Sansonex</Company>
+		<Company>Sansone</Company>
 	</PropertyGroup>
 
 	<ItemGroup>
