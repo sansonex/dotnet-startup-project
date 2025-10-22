@@ -1,4 +1,4 @@
-namespace Globo.TServiceNameT.Contracts
+namespace TServiceNameT.Contracts
 {
 	using System;
 

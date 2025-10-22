@@ -4,9 +4,9 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>false</ImplicitUsings>
-		<AssemblyName>Globo.TServiceNameT.Infrastructure</AssemblyName>
-		<RootNamespace>Globo.TServiceNameT.Infrastructure</RootNamespace>
-		<PackageId>Globo.TServiceNameT.Infrastructure</PackageId>
+		<AssemblyName>TServiceNameT.Infrastructure</AssemblyName>
+		<RootNamespace>TServiceNameT.Infrastructure</RootNamespace>
+		<PackageId>TServiceNameT.Infrastructure</PackageId>
 		<Authors>Globo.TServiceNameT.Infrastructure</Authors>
 		<Company>Globo</Company>
 	</PropertyGroup>

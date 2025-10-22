@@ -5,8 +5,8 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>false</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <AssemblyName>Globo.TServiceNameT.Api</AssemblyName>
-        <RootNamespace>Globo.TServiceNameT.Api</RootNamespace>
+        <AssemblyName>TServiceNameT.Api</AssemblyName>
+        <RootNamespace>TServiceNameT.Api</RootNamespace>
         <PackageId>Globo.TServiceNameT.Api</PackageId>
         <Authors>Globo.TServiceNameT.Api</Authors>
         <Company>Globo</Company>

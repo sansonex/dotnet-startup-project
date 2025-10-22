@@ -2,11 +2,11 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<AssemblyName>Globo.TServiceNameT.Contracts</AssemblyName>
-		<RootNamespace>Globo.TServiceNameT.Contracts</RootNamespace>
-		<PackageId>Globo.TServiceNameT.Contracts</PackageId>
-		<Authors>Globo.TServiceNameT.Contracts</Authors>
-		<Company>Globo</Company>
+		<AssemblyName>TServiceNameT.Contracts</AssemblyName>
+		<RootNamespace>TServiceNameT.Contracts</RootNamespace>
+		<PackageId>TServiceNameT.Contracts</PackageId>
+		<Authors>TServiceNameT.Contracts</Authors>
+		<Company>Sansone</Company>
 	</PropertyGroup>
 
 	<ItemGroup>

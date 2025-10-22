@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Infrastructure.Extensions
+﻿namespace TServiceNameT.Infrastructure.Extensions
 {
 	using System;
 	using System.Reflection;

@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Infrastructure.Database
+﻿namespace TServiceNameT.Infrastructure.Database
 {
 	using Microsoft.EntityFrameworkCore;
 

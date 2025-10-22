@@ -1,15 +1,15 @@
-namespace Globo.TServiceNameT.Api.Controllers.v0
+namespace TServiceNameT.Api.Controllers.v0
 {
 	using System;
 	using System.Linq;
 
 	using FluentResults;
 
-	using Globo.TServiceNameT.Contracts;
-
 	using Microsoft.AspNetCore.Http;
 	using Microsoft.AspNetCore.Mvc;
 	using Microsoft.Extensions.Logging;
+
+	using TServiceNameT.Contracts;
 
 	[ApiController]
 	[Route("api/v0/[controller]")]

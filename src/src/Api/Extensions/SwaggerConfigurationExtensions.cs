@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Api.Extensions
+﻿namespace TServiceNameT.Api.Extensions
 {
 	using System;
 	using System.Diagnostics.CodeAnalysis;

@@ -2,10 +2,10 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<AssemblyName>Globo.TServiceNameT.ClientSdk</AssemblyName>
-		<RootNamespace>Globo.TServiceNameT.ClientSdk</RootNamespace>
-		<PackageId>Globo.TServiceNameT.ClientSdk</PackageId>
-		<Authors>Globo.TServiceNameT.ClientSdk</Authors>
+		<AssemblyName>TServiceNameT.ClientSdk</AssemblyName>
+		<RootNamespace>TServiceNameT.ClientSdk</RootNamespace>
+		<PackageId>TServiceNameT.ClientSdk</PackageId>
+		<Authors>TServiceNameT.ClientSdk</Authors>
 		<Company>Globo</Company>
 	</PropertyGroup>
 

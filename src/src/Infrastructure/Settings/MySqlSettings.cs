@@ -1,4 +1,4 @@
-﻿namespace Globo.TServiceNameT.Infrastructure.Settings
+﻿namespace TServiceNameT.Infrastructure.Settings
 {
 	public class MySqlSettings
 	{
