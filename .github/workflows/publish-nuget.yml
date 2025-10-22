@@ -71,4 +71,4 @@ jobs:
         with:
           name: nuget-packages
           path: packages/
-          retention-days: 7
+          retention-days: 1
