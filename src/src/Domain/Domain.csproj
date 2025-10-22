@@ -6,9 +6,9 @@
 		<ImplicitUsings>false</ImplicitUsings>
 		<AssemblyName>TServiceNameT.Domain</AssemblyName>
 		<RootNamespace>TServiceNameT.Domain</RootNamespace>
-		<PackageId>Globo.TServiceNameT.Domain</PackageId>
-		<Authors>Globo.TServiceNameT.Domain</Authors>
-		<Company>Globo</Company>
+		<PackageId>TServiceNameT.Domain</PackageId>
+		<Authors>Sansone.TServiceNameT.Domain</Authors>
+		<Company>Sansone</Company>
 	</PropertyGroup>
 
     <ItemGroup>

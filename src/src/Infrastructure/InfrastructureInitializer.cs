@@ -7,9 +7,9 @@
 
 	using TServiceNameT.Domain.Interfaces.Services;
 	using TServiceNameT.Infrastructure.Database.Configuration;
+	using TServiceNameT.Infrastructure.Settings;
 	using TServiceNameT.Infrastructure.Extensions;
 	using TServiceNameT.Infrastructure.Mediator;
-	using TServiceNameT.Infrastructure.Settings;
 
 	public static class InfrastructureInitializer
 	{
@@ -26,12 +26,13 @@
 		{
 			return services
 				.ConfigureSettings()
+				.ConfigureOpenTelemetry()
 				.ConfigureMediator(DomainAssembly, InfrastructureAssembly)
 				.ConfigureDatabase(InfrastructureAssembly)
 				.ScanAndRegisterImplementedTypes(
 					assemblies: [DomainAssembly, InfrastructureAssembly],
 					types: [typeof(IService)],
-					lifetime: ServiceLifetime.Transient);
+					lifetime: ServiceLifetime.Scoped);
 		}
 	}
 }
